@@ -1,0 +1,33 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Prophet / cmdstanpy artifacts (created at runtime)
+cmdstan/
+*.pkl
+
+# Data (uncomment if you don't want to commit downloaded data)
+# *.csv
